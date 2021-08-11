@@ -61,7 +61,7 @@ def generateDataset(t, s, d, f):
         for i in imgs:
             i_source_path = sou / i  # es-> ../croppedImages/Abraamios/Abraamios_1/0_Abraamios_1.jpg
 
-            # copy the row image in the appropriate folder
+            # copy the row image in the appropriate folder   
             shutil.copy(i_source_path, des)
             print(i_source_path)
 
