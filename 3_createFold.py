@@ -19,7 +19,7 @@ def removeNan(l):
         if isNaN(l[i]):
             l.pop(i)
             i = i - 1
-        i = i + 1
+        i =  i + 1
     return l
 
 
