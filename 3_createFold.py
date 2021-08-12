@@ -54,7 +54,7 @@ def generateDataset(t, s, d, f):
         if not os.path.exists(des):
             os.makedirs(des)
 
-        # from the source it takes the folder containing rows of a single image
+        # from the source it takes the folder containing rows of a single image    
         sou = s / item  # es-> ../croppedImages/Abraamios/Abraamios_1
         print(sou)
         imgs = os.listdir(sou)  # all lines of the same image
