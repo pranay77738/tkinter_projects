@@ -12,7 +12,6 @@ while chances >= 0:
         print("Please press 3 for the Pay In")
         print("Please press 4 to withdraw your card \n")
         
-
         while restart not in ('n',"N","NO","no","No","nO"):
             print("You entered your ATM pin correctly")
             print("Please press 1 for your Balance")
